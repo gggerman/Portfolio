@@ -1,0 +1,46 @@
+/* Icons */
+.icons_container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-gap: 50px;
+    font-size: 75px;
+}
+/* End of Icons */
+
+/* Custom Section */
+.custom_section {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.custom_section_title span {
+    position: absolute;
+    height: 7px;
+    width: 100%;
+    bottom: 0;
+    opacity: 0.4;
+    left: 0;
+    background-color: var(--main-color)
+}
+.custom_section_title {
+    position: relative;
+    display: inline-block;
+    padding: 0 3px;
+}
+.custom_section_title .custom_section_title_text {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    margin: 25px;
+}
+/* End of Custom Section */
+
+.custom_service {
+    height: 100%;
+    text-align: center;
+    font-size: 85px;
+    transition: 0.3s;
+}
+.custom_service:hover {
+    transform: scale(1.2)
+}
