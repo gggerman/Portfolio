@@ -7,7 +7,7 @@ import Button from '../Components/Button';
 
 const allButtons = ['All', ...new Set(portfolios.map(item => item.category))]
 
-function PortfoliosPage() {
+function ProjectsPage() {
     const [menuItem, setMenuItems] = useState(portfolios);
     const [button, setButtons] = useState(allButtons);
 
@@ -23,7 +23,7 @@ function PortfoliosPage() {
     }
     return (
         <MainLayout>
-            <Title title={'Portfolios'} span={'portfolios'} />
+            <Title title={'Projects'} span={'portfolios'} />
             <InnerLayout>
 
                 <Button filter={filter} button={button} />
@@ -33,4 +33,4 @@ function PortfoliosPage() {
     )
 }
 
-export default PortfoliosPage
+export default ProjectsPage
