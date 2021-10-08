@@ -18,50 +18,44 @@ function Resume() {
                     <SmallTitle icon={briefcase} title={'Working Experience'} />
                 </div>
                 <div className="resume-content">
-                    <ResumeItem 
-                        year={'2015 - 2020'} 
-                        title={'Computer Science Teacher'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                    <ResumeItem
+                        year={'2021'}
+                        title={'AmadeuS'}
+                        subTitle={'Full Stack Developer'}
+                        text={'Creation of an E-Commerce to buy/sell musical instruments. Developed with agile methodology, with one-week sprints and presentations to a Product Owner belonging to the staff.'}
                     />
-                    <ResumeItem 
-                        year={'2015 - Present'} 
-                        title={'Full Stack Developer'}
-                        subTitle={'Microsoft Studios'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                    <ResumeItem
+                        year={'2021'}
+                        title={'PokeApp'}
+                        subTitle={'Full Stack Developer'}
+                        text={'Development of a SPA (Single-Page Application) using React for the Front End and Redux as stage management. The components were developed with CSS without the use of external libraries. It consumes data from an API through a Back End developed in NodeJs using Express, adding new functionalities to the original API.'}
                     />
-                    <ResumeItem 
-                        year={'2010 - 2017'} 
-                        title={'User Interface Designer'}
-                        subTitle={'Google Inc'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                    <ResumeItem
+                        year={'2016 - Present'}
+                        title={'1st Violin and Soloist'}
+                        subTitle={'"Leopoldo Marechal" Chamber Orchestra'}
+                        text={'Member of the orchestra, performing in the first violins and occasionally as a soloist. Some of my duties are learning music quickly, counting rests accurately and leading the rest of the string section by my playing and bow gestures.'}
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
-                    <SmallTitle icon={school} title={'Educational Qualifications'} />
+                    <SmallTitle icon={school} title={'Education'} />
                 </div>
                 <div className="resume-content ">
-                    <ResumeItem 
-                        year={'201 - 2022'} 
-                        title={'Computer Science Degree'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                    <ResumeItem
+                        year={'2021'}
+                        title={'Henry Bootcamp'}
+                        subTitle={'Full Stack Developer'}
+                        text={'+700 hours intensive bootcamp based on practices and real projects with agile methodologies and tools (scrum). On the other hand, it is aimed at improving technical skills and soft skills working as a team.'}
                     />
-                    <ResumeItem 
-                        year={'2015 - 2017'} 
-                        title={'A - Levels'}
-                        subTitle={'Church Hill High'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
-                    />
-                    <ResumeItem 
-                        year={'2015 - 2017'} 
-                        title={'High School Graduation'}
-                        subTitle={'ABC School'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                    <ResumeItem
+                        year={'2014 - Present'}
+                        title={'Escuela de Arte "Leopoldo Marechal"'}
+                        subTitle={'Instrument Technicature (Violin)'}
+                        text={'Perform as a soloist in symphony orchestras, chamber orchestras and ensembles. Direct, coordinate or participate in research teams in the technical, interpretive and methodology area of teaching the instrument. Program and select the repertoire for instrumental concerts in its various genres and styles.'}
                     />
                 </div>
             </InnerLayout>
-        </ResumeStyled>    
+        </ResumeStyled>
     )
 }
 

@@ -30,6 +30,8 @@ const ResumeItemStyled = styled.div`
         width: 50%;
         padding-left: 20px;
         position: relative;
+        min-width: 150px !important;
+        max-width: 150px !important;
         &::before{
             content: "";
             position: absolute;
@@ -48,6 +50,7 @@ const ResumeItemStyled = styled.div`
     .right-content{
         padding-left: 5rem;
         position: relative;
+        max-width: none;
         &::before{
             content: "";
             position: absolute;
