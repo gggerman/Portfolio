@@ -9,7 +9,7 @@ function Skills() {
     return (
         <SkillsStyled>
 
-                <Title title={'Technologies'} span={'my skills'} />
+                <Title title={'Technologies'} span={'technologies'} />
                 <InnerLayout>
                     <Technologies />
                 </InnerLayout>
