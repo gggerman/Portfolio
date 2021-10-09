@@ -24,9 +24,6 @@ const Technologies = () => {
     return (
         <>
         <Grid container className='custom_section pt_45'>
-            <Grid item className='custom_section_title mb_30'>
-                <Typography variant='h6' className='custom_section_title_text'>Technologies</Typography>
-            </Grid>
                 <Grid container justify='space-around'>
 
                         <Grid item xs={12} sm={6} md={3}>
