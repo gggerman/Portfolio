@@ -60,7 +60,7 @@ function ContactPage() {
                       </form>
                   </div>
                   <div className="right-content">
-                      <ContactItem title={'Phone'} icon={phone} cont1={'+54 9 1125389032'} />
+                      <ContactItem title={'Phone'} icon={phone} cont1={'+54 9 11 25389032'} />
                       <ContactItem title={'Email'} icon={email} cont1={'21german.garcia@gmail.com'} />
                       <ContactItem title={'Location'} icon={location} cont1={'Buenos Aires, Argentina'} />
 
