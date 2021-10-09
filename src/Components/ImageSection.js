@@ -12,10 +12,7 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I am <span>Germán García</span></h4>
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, natus quas vero enim
-                    praesentium delectus est id fugiat ab libero adipisci recusandae at maxime veritatis!
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, nesciunt.
-
+                    Hi! My name is Germán, I'm a 𝐅𝐫𝐨𝐧𝐭-𝐄𝐧𝐝 oriented 𝐅𝐮𝐥𝐥 𝐒𝐭𝐚𝐜𝐤 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 and a 𝐕𝐢𝐨𝐥𝐢𝐧𝐢𝐬𝐭. I finished the Henry bootcamp with +800 hours of practice and now I'm actually looking for new challenges. I created this portfolio to show my information and the projects that i've been working on. Feel free to contact me!
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -31,7 +28,7 @@ function ImageSection() {
                         <p>: Spanish (Native), English (Proficient: C2)</p>
                     </div>
                 </div>
-                <PrimaryButton title={'Download Cv'} />
+                <a href="https://drive.google.com/file/d/1wZCy2Uudiso3cKOAL-uoSGBtWGHp7bM9/view" target="_blank"><PrimaryButton title={'Download Cv'} /></a>
             </div>
         </ImageSectionStyled>
     )

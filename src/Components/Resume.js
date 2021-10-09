@@ -34,7 +34,7 @@ function Resume() {
                         year={'2016 - Present'}
                         title={'1st Violin and Soloist'}
                         subTitle={'"Leopoldo Marechal" Chamber Orchestra'}
-                        text={'Member of the orchestra, performing in the first violins and occasionally as a soloist. Some of my duties are learning music quickly, counting rests accurately and leading the rest of the string section by my playing and bow gestures.'}
+                        text={'Member of the orchestra, performing in the first violins and occasionally as a soloist. Experienced at learning music quickly, counting rests accurately and leading the rest of the string section by my playing and bow gestures.'}
                     />
                 </div>
                 <div className="small-title u-small-title-margin">

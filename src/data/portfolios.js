@@ -10,7 +10,7 @@ const portfolios = [
         link1: 'https://github.com/gggerman/Final-Proyect-Front',
         link2: 'https://amadeus.vercel.app/',
         title: 'AmadeuS',
-        text: 'Musical Instruments E-Commerce.'
+        text: 'E-Commerce'
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const portfolios = [
         link1: 'https://github.com/gggerman/PokeApp',
         link2: 'https://www.google.com',
         title: 'PokeApp',
-        text: 'PokeApp'
+        text: 'Pokedex using the PokeApi'
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ const portfolios = [
         link1: 'https://github.com/gggerman/Weather-App',
         link2: 'https://weather-app-seven-xi.vercel.app/',
         title: 'Weather App',
-        text: 'Weather App'
+        text: 'Weather App using the Open Weather Api'
     }
 ]
 
