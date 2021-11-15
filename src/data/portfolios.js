@@ -19,7 +19,7 @@ const portfolios = [
         link1: 'https://github.com/gggerman/PokeApp',
         link2: 'https://www.youtube.com/watch?v=hwYAy1Y1BGg',
         title: 'PokeApp',
-        text: 'Video Coming!'
+        text: 'Pokedex'
     },
     {
         id: 3,
