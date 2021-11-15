@@ -28,7 +28,7 @@ function ImageSection() {
                         <p>: Spanish (Native), English (Proficient: C2)</p>
                     </div>
                 </div>
-                <a href="https://drive.google.com/file/d/1wZCy2Uudiso3cKOAL-uoSGBtWGHp7bM9/view" target="_blank"><PrimaryButton title={'Download Cv'} /></a>
+                <a href="https://drive.google.com/file/d/1AwtQv3JmITkbXlwY9mYtdyhci9bRvOQW/view?usp=sharing" target="_blank"><PrimaryButton title={'Download Cv'} /></a>
             </div>
         </ImageSectionStyled>
     )
