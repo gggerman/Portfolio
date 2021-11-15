@@ -7,6 +7,7 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ContactItem from '../Components/ContactItem';
+import Alert from '@mui/material/Alert';
 import emailjs from 'emailjs-com';
 
 function ContactPage() {
@@ -54,6 +55,9 @@ function ContactPage() {
                             <label htmlFor="textarea">Enter your Message *</label>
                             <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
                         </div>
+                        <Alert variant="outlined" severity="success" onClose={() => {}}>
+                        Mail sended!
+                        </Alert>
                         <div className="form-field f-button">
                             <input type="submit" value="Send" className="sendButton"/>
                         </div>
@@ -63,7 +67,6 @@ function ContactPage() {
                       <ContactItem title={'Phone'} icon={phone} cont1={'+54 9 11 25389032'} />
                       <ContactItem title={'Email'} icon={email} cont1={'21german.garcia@gmail.com'} />
                       <ContactItem title={'Location'} icon={location} cont1={'Buenos Aires, Argentina'} />
-
                   </div>
               </InnerLayout>
             </ContactPageStyled>

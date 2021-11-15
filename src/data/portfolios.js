@@ -17,7 +17,7 @@ const portfolios = [
         category: 'Full Stack',
         image: pokeApp,
         link1: 'https://github.com/gggerman/PokeApp',
-        link2: 'https://www.google.com',
+        link2: 'https://www.youtube.com/watch?v=hwYAy1Y1BGg',
         title: 'PokeApp',
         text: 'Pokedex using the PokeApi'
     },
