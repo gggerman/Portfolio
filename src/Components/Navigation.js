@@ -27,7 +27,7 @@ function Navigation() {
                 </li>
             </ul>
             <footer className="footer">
-                <p>@2021 <b>Germán García</b></p>
+                <p><b>Germán García</b> &reg; {new Date().getFullYear()} </p>
             </footer>
         </NavigationStyled>
     )

@@ -7,7 +7,6 @@ import HomePage from "./Pages/HomePage";
 import AboutPage from './Pages/AboutPage';
 import ResumePage from './Pages/ResumePage';
 import ProjectsPage from './Pages/ProjectsPage';
-import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -83,9 +82,6 @@ function App() {
             </Route>
             <Route path="/projects" exact>
               <ProjectsPage />
-            </Route>
-            <Route path="/blogs" exact>
-               <BlogsPage />
             </Route>
             <Route path="/contact" exact>
               <ContactPage />

@@ -27,6 +27,7 @@ function ContactPage() {
           console.log(error.text);
       });
       e.target.reset();
+      alert('Email sent!')
     };
 
     return (
@@ -55,9 +56,6 @@ function ContactPage() {
                             <label htmlFor="textarea">Enter your Message *</label>
                             <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
                         </div>
-                        <Alert variant="outlined" severity="success" onClose={() => {}}>
-                        Mail sended!
-                        </Alert>
                         <div className="form-field f-button">
                             <input type="submit" value="Send" className="sendButton"/>
                         </div>
