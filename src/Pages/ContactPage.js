@@ -21,19 +21,19 @@ function ContactPage() {
     e.preventDefault();
 
     emailjs.sendForm('service_omo4wrq', 'template_jm98xaq', form.current, 'user_pA0MsNT2jzDrXqzQBVQMi')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset();
-      alert('Email sent!')
+        .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+        });
+    e.target.reset();
+    alert('Email sent!')
     };
 
     return (
-      <MainLayout>
-          <Title title={'Contact'} span={'Contact'} />
-          <ContactPageStyled >
+        <MainLayout>
+            <Title title={'Contact'} span={'Contact'} />
+            <ContactPageStyled >
             <InnerLayout className={'contact-section'}>
                 <div className="left-content">
                     <div className="contact-title">
@@ -59,14 +59,14 @@ function ContactPage() {
                         <div className="form-field f-button">
                             <input type="submit" value="Send" className="sendButton"/>
                         </div>
-                      </form>
-                  </div>
-                  <div className="right-content">
-                      <ContactItem title={'Phone'} icon={phone} cont1={'+54 9 11 25389032'} />
-                      <ContactItem title={'Email'} icon={email} cont1={'21german.garcia@gmail.com'} />
-                      <ContactItem title={'Location'} icon={location} cont1={'Buenos Aires, Argentina'} />
-                  </div>
-              </InnerLayout>
+                        </form>
+                    </div>
+                    <div className="right-content">
+                        <ContactItem title={'Phone'} icon={phone} cont1={'+54 9 11 25389032'} />
+                        <ContactItem title={'Email'} icon={email} cont1={'21german.garcia@gmail.com'} />
+                        <ContactItem title={'Location'} icon={location} cont1={'Buenos Aires, Argentina'} />
+                    </div>
+                </InnerLayout>
             </ContactPageStyled>
         </MainLayout>
     )
@@ -84,29 +84,29 @@ const ContactPageStyled = styled.section`
             }
         }
         .sendButton {
-          background-color: var(--primary-color) !important;
-          padding: .8rem 2.5rem;
-          color: white !important;
-          cursor: pointer;
-          display: inline-block;
-          font-size: inherit;
-          text-transform: uppercase;
-          position: relative;
-          transition: all .4s ease-in-out;
-          &::after {
-              content: "";
-              position: absolute;
-              width: 0;
-              height: .2rem;
-              transition: all .4s ease-in-out;
-              left: 0;
-              bottom: 0;
-              opacity: .7;
-          }
-          &:hover::after{
-              width: 100%;
-              background-color: var(--white-color);
-          }
+            background-color: var(--primary-color) !important;
+            padding: .8rem 2.5rem;
+            color: white !important;
+            cursor: pointer;
+            display: inline-block;
+            font-size: inherit;
+            text-transform: uppercase;
+            position: relative;
+            transition: all .4s ease-in-out;
+            &::after {
+                content: "";
+                position: absolute;
+                width: 0;
+                height: .2rem;
+                transition: all .4s ease-in-out;
+                left: 0;
+                bottom: 0;
+                opacity: .7;
+            }
+            &:hover::after{
+                width: 100%;
+                background-color: var(--white-color);
+            }
         }
         .right-content{
             display: grid;
