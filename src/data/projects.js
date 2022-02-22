@@ -1,6 +1,7 @@
 import pokeApp from '../img/portImages/PokeApp.jfif';
 import amadeuS from '../img/portImages/AmadeuS.png';
 import weatherApp from '../img/portImages/WeatherApp.png';
+import travelMap from '../img/portImages/TravelMap.png';
 
 const projects = [
     {
@@ -29,6 +30,15 @@ const projects = [
         link2: 'https://weather-app-seven-xi.vercel.app/',
         title: 'Weather App',
         text: 'Weather App using the Open Weather Api'
+    },
+    {
+        id: 4,
+        category: 'Full Stack',
+        image: travelMap,
+        link1: 'https://github.com/gggerman/Travel-Map',
+        link2: 'https://travel-map-seven.vercel.app/',
+        title: 'Travel Map',
+        text: 'MERN Stack'
     }
 ]
 
