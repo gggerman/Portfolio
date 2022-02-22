@@ -29,7 +29,7 @@ const projects = [
         link1: 'https://github.com/gggerman/Weather-App',
         link2: 'https://weather-app-seven-xi.vercel.app/',
         title: 'Weather App',
-        text: 'Weather App using the Open Weather Api'
+        text: 'A SPA using the Open Weather Api'
     },
     {
         id: 4,
