@@ -52,7 +52,7 @@ function Resume() {
             title={"Henry Bootcamp"}
             subTitle={"Full Stack Developer"}
             text={
-              "+700 hours intensive bootcamp based on practices and real projects with agile methodologies and tools (scrum). On the other hand, it is aimed at improving technical skills and soft skills working as a team."
+              "+800 hours intensive bootcamp based on practices and real projects with agile methodologies and tools (scrum). On the other hand, it is aimed at improving technical skills and soft skills working as a team."
             }
           />
           <ResumeItem
