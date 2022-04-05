@@ -12,7 +12,7 @@ const projects = [
         link1: 'https://github.com/gggerman/Final-Proyect-Front',
         link2: 'https://amadeus.vercel.app/',
         title: 'AmadeuS E-Commerce',
-        text: 'PERN Stack'
+        text: 'MERN Stack'
     },
     {
         id: 2,
