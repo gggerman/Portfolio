@@ -2,6 +2,7 @@ import pokeApp from '../img/portImages/PokeApp.jfif';
 import amadeuS from '../img/portImages/AmadeuS.png';
 import weatherApp from '../img/portImages/WeatherApp.png';
 import travelMap from '../img/portImages/TravelMap.png';
+import tasksTypescript from '../img/portImages/Tasks-Typescript.png';
 
 const projects = [
     {
@@ -39,6 +40,15 @@ const projects = [
         link2: 'https://travel-map-seven.vercel.app/',
         title: 'Travel Map',
         text: 'MERN Stack'
+    },
+    {
+        id: 5,
+        category: 'Typescript',
+        image: tasksTypescript,
+        link1: 'https://github.com/gggerman/Tasks-Typescript',
+        link2: 'https://tasks-typescript.vercel.app/',
+        title: 'Tasks Typescript App',
+        text: 'Task Application using React and Typescript'
     }
 ]
 
