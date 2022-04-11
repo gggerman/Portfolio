@@ -1,4 +1,4 @@
-import pokeApp from '../img/portImages/PokeApp.jfif';
+import pokeApp from '../img/portImages/PokeApp.png';
 import amadeuS from '../img/portImages/AmadeuS.png';
 import weatherApp from '../img/portImages/WeatherApp.png';
 import travelMap from '../img/portImages/TravelMap.png';
