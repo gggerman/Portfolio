@@ -3,6 +3,7 @@ import amadeuS from '../img/portImages/AmadeuS.png';
 import weatherApp from '../img/portImages/WeatherApp.png';
 import travelMap from '../img/portImages/TravelMap.png';
 import tasksTypescript from '../img/portImages/Tasks-Typescript.png';
+import portfolio from '../img/portImages/Portfolio.png';
 
 const projects = [
     {
@@ -26,6 +27,15 @@ const projects = [
     {
         id: 3,
         category: 'React',
+        image: portfolio,
+        link1: 'https://github.com/gggerman/Portfolio',
+        link2: 'https://german-garcia-portfolio.vercel.app/',
+        title: 'Portfolio',
+        text: 'This portfolio!'
+    },
+    {
+        id: 4,
+        category: 'React',
         image: weatherApp,
         link1: 'https://github.com/gggerman/Weather-App',
         link2: 'https://weather-app-seven-xi.vercel.app/',
@@ -33,7 +43,7 @@ const projects = [
         text: 'A SPA using the Open Weather Api'
     },
     {
-        id: 4,
+        id: 5,
         category: 'Full Stack',
         image: travelMap,
         link1: 'https://github.com/gggerman/Travel-Map',
@@ -42,7 +52,7 @@ const projects = [
         text: 'MERN Stack'
     },
     {
-        id: 5,
+        id: 6,
         category: 'Typescript',
         image: tasksTypescript,
         link1: 'https://github.com/gggerman/Tasks-Typescript',
