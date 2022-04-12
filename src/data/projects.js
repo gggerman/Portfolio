@@ -40,7 +40,7 @@ const projects = [
         link1: 'https://github.com/gggerman/Weather-App',
         link2: 'https://weather-app-seven-xi.vercel.app/',
         title: 'Weather App',
-        text: 'SPA using React and consuming de Open Weather Api'
+        text: 'SPA using React and consuming the Open Weather Api'
     },
     {
         id: 5,
