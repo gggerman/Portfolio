@@ -31,7 +31,7 @@ const projects = [
         link1: 'https://github.com/gggerman/Portfolio',
         link2: 'https://german-garcia-portfolio.vercel.app/',
         title: 'Portfolio',
-        text: 'This portfolio!'
+        text: 'This portfolio! Made with React and Material UI'
     },
     {
         id: 4,
@@ -40,7 +40,7 @@ const projects = [
         link1: 'https://github.com/gggerman/Weather-App',
         link2: 'https://weather-app-seven-xi.vercel.app/',
         title: 'Weather App',
-        text: 'A SPA using the Open Weather Api'
+        text: 'SPA using React and consuming de Open Weather Api'
     },
     {
         id: 5,
