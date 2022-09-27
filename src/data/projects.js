@@ -4,6 +4,7 @@ import weatherApp from '../img/portImages/WeatherApp.png';
 import travelMap from '../img/portImages/TravelMap.png';
 import tasksTypescript from '../img/portImages/Tasks-Typescript.png';
 import portfolio from '../img/portImages/Portfolio.png';
+import pokemonDashboard from '../img/portImages/PokemonDashboard.png';
 
 const projects = [
     {
@@ -59,6 +60,15 @@ const projects = [
         link2: 'https://tasks-typescript.vercel.app/',
         title: 'Tasks Typescript App',
         text: 'Task Application using React and Typescript'
+    },
+    {
+        id: 7,
+        category: 'React',
+        image: pokemonDashboard,
+        link1: 'https://github.com/gggerman/PokemonDashboard',
+        link2: 'https://pokemon-dashboard-eight.vercel.app/',
+        title: 'Pokémon Dashboard',
+        text: 'Pokémon Dashboard made with React'
     }
 ]
 
