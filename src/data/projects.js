@@ -37,11 +37,11 @@ const projects = [
     {
         id: 4,
         category: 'React',
-        image: weatherApp,
-        link1: 'https://github.com/gggerman/Weather-App',
-        link2: 'https://weather-app-seven-xi.vercel.app/',
-        title: 'Weather App',
-        text: 'SPA using React and consuming the Open Weather Api'
+        image: pokemonDashboard,
+        link1: 'https://github.com/gggerman/PokemonDashboard',
+        link2: 'https://pokemon-dashboard-eight.vercel.app/',
+        title: 'Pokémon Dashboard',
+        text: 'Pokémon Dashboard made with React'
     },
     {
         id: 5,
@@ -64,11 +64,11 @@ const projects = [
     {
         id: 7,
         category: 'React',
-        image: pokemonDashboard,
-        link1: 'https://github.com/gggerman/PokemonDashboard',
-        link2: 'https://pokemon-dashboard-eight.vercel.app/',
-        title: 'Pokémon Dashboard',
-        text: 'Pokémon Dashboard made with React'
+        image: weatherApp,
+        link1: 'https://github.com/gggerman/Weather-App',
+        link2: 'https://weather-app-seven-xi.vercel.app/',
+        title: 'Weather App',
+        text: 'SPA using React and consuming the Open Weather Api'
     }
 ]
 
