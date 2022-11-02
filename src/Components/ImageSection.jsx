@@ -35,10 +35,10 @@ function ImageSection() {
           </div>
         </div>
         <a
-          href="https://drive.google.com/file/d/1AwtQv3JmITkbXlwY9mYtdyhci9bRvOQW/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Oi1sauieRL-H6Jd8JKiHWJdkDuu8xfz3/view?usp=sharing"
           target="_blank"
         >
-          <PrimaryButton title={"Download Cv"} />
+          <PrimaryButton title={"Download CV"} />
         </a>
       </div>
     </ImageSectionStyled>
