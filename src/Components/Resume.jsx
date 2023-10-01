@@ -18,20 +18,20 @@ function Resume() {
           <SmallTitle icon={briefcase} title={"Experience"} />
         </div>
         <div className="resume-content">
+        <ResumeItem
+            year={"December 2021 - Present"}
+            title={"NewBitCrew"}
+            subTitle={"Full Stack Developer"}
+            text={
+              "As a Full Stack Developer, I have the privilege of working on two standout projects. 'Coin' serves as a fintech landscape for businesses, simplifying payment processes and transactions. 'Magic Stories' blends technology and imagination, creating children's stories using AI."
+            }
+          />
           <ResumeItem
             year={"2021"}
             title={"AmadeuS (Academic)"}
             subTitle={"Full Stack Developer"}
             text={
               "Creation of an E-Commerce to buy/sell musical instruments. Developed with agile methodology, with one-week sprints and presentations to a Product Owner belonging to the staff."
-            }
-          />
-          <ResumeItem
-            year={"2021"}
-            title={"PokeApp (Academic)"}
-            subTitle={"Full Stack Developer"}
-            text={
-              "Development of a SPA (Single-Page Application) using React for the Front End and Redux as stage management. The components were developed with CSS without the use of external libraries. It consumes data from an API through a Back End developed in NodeJs using Express, adding new functionalities to the original API."
             }
           />
           <ResumeItem
