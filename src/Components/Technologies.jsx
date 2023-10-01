@@ -8,7 +8,7 @@ import fileTypeCss from '@iconify/icons-vscode-icons/file-type-css';
 import javascriptIcon from '@iconify/icons-logos/javascript';
 import reactIcon from '@iconify/icons-logos/react';
 import reduxIcon from '@iconify/icons-logos/redux';
-import materialUi from '@iconify/icons-logos/material-ui';
+import tailwindIcon from '@iconify/icons-logos/tailwindcss-icon';
 import postgresqlIcon from '@iconify/icons-logos/postgresql';
 import expressIcon from '@iconify/icons-simple-icons/express';
 import sequelizeIcon from '@iconify/icons-logos/sequelize';
@@ -64,8 +64,8 @@ const Technologies = () => {
                         </Grid>
                         <Grid item xs={12} sm={6} md={3}>
                             <div className='custom_service'>
-                                <Icon icon={materialUi}/>
-                                <Typography className='service_title' variant='h6'>Material UI</Typography>
+                                <Icon icon={tailwindIcon}/>
+                                <Typography className='service_title' variant='h6'>Tailwind</Typography>
                             </div>
                         </Grid>
                         <Grid item xs={12} sm={6} md={3}>
