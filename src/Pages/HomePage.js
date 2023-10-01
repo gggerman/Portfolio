@@ -3,14 +3,10 @@ import styled from 'styled-components';
 import GithubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
-import Particle from '../Components/Particle';
 
 function HomePage() {
     return (
         <HomePageStyled>
-            <div className="particle-con">
-                <Particle />
-            </div>
             <div className="typography">
                 <h1><span>Germán García</span></h1>
                 <p>
