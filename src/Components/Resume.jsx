@@ -21,15 +21,15 @@ function Resume() {
         <ResumeItem
             year={"December 2021 - Present"}
             title={"NewBitCrew"}
-            subTitle={"Full Stack Developer"}
+            subTitle={"Software Developer"}
             text={
-              "As a Full Stack Developer, I have the privilege of working on two standout projects. 'Coin' serves as a fintech landscape for businesses, simplifying payment processes and transactions. 'Magic Stories' blends technology and imagination, creating children's stories using AI."
+              "As a Software Developer, I have the privilege of working on two standout projects. 'Coin' serves as a fintech landscape for businesses, simplifying payment processes and transactions. 'Magic Stories' blends technology and imagination, creating children's stories using AI."
             }
           />
           <ResumeItem
             year={"2021"}
             title={"AmadeuS (Academic)"}
-            subTitle={"Full Stack Developer"}
+            subTitle={"Software Developer"}
             text={
               "Creation of an E-Commerce to buy/sell musical instruments. Developed with agile methodology, with one-week sprints and presentations to a Product Owner belonging to the staff."
             }
@@ -50,7 +50,7 @@ function Resume() {
           <ResumeItem
             year={"2021"}
             title={"Henry Bootcamp"}
-            subTitle={"Full Stack Developer"}
+            subTitle={"Software Developer"}
             text={
               "+800 hours intensive bootcamp based on practices and real projects with agile methodologies and tools (scrum). On the other hand, it is aimed at improving technical skills and soft skills working as a team."
             }
