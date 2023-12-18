@@ -14,7 +14,7 @@ function ImageSection() {
           I am <span>Germán García</span>
         </h4>
         <p className="paragraph">
-        Hi! My name is Germán, I'm a Full Stack Developer and a Violinist. I completed the Henry bootcamp with over 800 hours of practice and have nearly a year of experience working with React and Node at NewBitCrew. I created this portfolio to showcase my information and the projects I've been working on. Please feel free to contact me!
+        Hi! My name is Germán, I'm a Software Developer and a Violinist. I completed the Henry bootcamp with over 800 hours of practice and have nearly a year of experience working with React and Node at NewBitCrew. I created this portfolio to showcase my information and the projects I've been working on. Please feel free to contact me!
         </p>
         <div className="about-info">
           <div className="info-title">
@@ -31,7 +31,7 @@ function ImageSection() {
           </div>
         </div>
         <a
-          href="https://drive.google.com/file/d/1cltIcrR9FsuYwHICZPeEZXk3de5zW99e/view?usp=sharing"
+          href="https://drive.google.com/file/d/127e0hgm1DvCwyzJMyQwEdr7GPfitmeiJ/view?usp=sharing"
           target="_blank"
         >
           <PrimaryButton title={"Download CV"} />
