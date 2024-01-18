@@ -10,7 +10,7 @@ function HomePage() {
             <div className="typography">
                 <h1><span>Germán García</span></h1>
                 <p>
-                    Full Stack Developer
+                    Software Developer
                 </p>
                 <div className="icons">
                     <a href="https://www.linkedin.com/in/german-garcia-full-stack-developer/" target="_blank" className="icon i-facebook">
