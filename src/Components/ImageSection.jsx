@@ -31,7 +31,7 @@ function ImageSection() {
           </div>
         </div>
         <a
-          href="https://drive.google.com/file/d/1xk6I6Eve6SIz6Nbup0sBK_lXth2mtU-8/view?usp=sharing"
+          href="https://drive.google.com/file/d/1jeHSaAWK5A3e9846IdNRsxGDUrPddvwl/view?usp=sharing"
           target="_blank"
         >
           <PrimaryButton title={"Download CV"} />
