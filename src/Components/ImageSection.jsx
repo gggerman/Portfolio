@@ -14,27 +14,33 @@ function ImageSection() {
           I am <span>Germán García</span>
         </h4>
         <p className="paragraph">
-        Hi! My name is Germán, I'm a Software Developer and a Violinist. I completed the Henry bootcamp with over 800 hours of practice and have more than a year of experience working with React and Node at NewBitCrew. I created this portfolio to showcase my information and the projects I've been working on. Please feel free to contact me!
+          Hi! My name is Germán, and I'm a Software Developer and Violinist. I have two years of experience working with React and Node, and I'm currently part of the team at Propital. My primary stack is React and Node, but I also have experience with PHP, Golang and Python. I created this portfolio to showcase my work and the projects I've been involved in. Feel free to reach out to me!
         </p>
         <div className="about-info">
           <div className="info-title">
-            <p>Full Name</p>
-            <p>Age</p>
-            <p>Location</p>
-            <p>Languages </p>
+            <p>Full Name:</p>
+            <p>Age:</p>
+            <p>Location:</p>
+            <p>Languages:</p>
           </div>
           <div className="info">
-            <p>: Germán García</p>
-            <p>: 26</p>
-            <p>: Buenos Aires, Argentina </p>
-            <p>: Spanish (Native), English (Proficient: C2)</p>
+            <p>Germán García</p>
+            <p>26</p>
+            <p>Buenos Aires, Argentina </p>
+            <p>Spanish (Native), English (Proficient: C2)</p>
           </div>
         </div>
         <a
           href="https://drive.google.com/file/d/1jeHSaAWK5A3e9846IdNRsxGDUrPddvwl/view?usp=sharing"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
-          <PrimaryButton title={"Download CV"} />
+          <PrimaryButton title={"CV"} />
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1VmaHcIRa44bs-T0owL4G4SJmL6_H0B4w/view?usp=sharing"
+          target="_blank" rel="noreferrer"
+        >
+          <PrimaryButton title={"English Certification (EFSET)"} />
         </a>
       </div>
     </ImageSectionStyled>

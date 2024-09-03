@@ -15,23 +15,23 @@ function Menu({ menuItem }) {
                 <ul>
                   {item.hasGithub && (
                     <li>
-                      <a href={item.link1} target="_blank">
+                      <a href={item.link1} target="_blank" rel="noreferrer">
                         <GitHub />
                       </a>
                     </li>
                   )}
                   {item.hasDeploy && (
                     <li>
-                      <a href={item.link2} target="_blank">
+                      <a href={item.link2} target="_blank" rel="noreferrer">
                         <LinkIcon />
                       </a>
                     </li>
                   )}
                 </ul>
               </div>
-              <h6>{item.title}</h6>
-              <p>{item.text}</p>
             </div>
+            <h6>{item.title}</h6>
+            <p>{item.text}</p>
           </div>
         );
       })}

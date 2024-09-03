@@ -18,14 +18,22 @@ function Resume() {
           <SmallTitle icon={briefcase} title={"Experience"} />
         </div>
         <div className="resume-content">
-        <ResumeItem
-            year={"December 2022 - Present"}
-            title={"NewBitCrew"}
-            subTitle={"Software Developer"}
-            text={
-              "As a Software Developer, I have the privilege of working on two standout projects. 'Coin' serves as a fintech landscape for businesses, simplifying payment processes and transactions. 'Magic Stories' blends technology and imagination, creating children's stories using AI."
-            }
-          />
+          <ResumeItem
+              year={"June 2024 - Present"}
+              title={"Propital"}
+              subTitle={"Software Development Engineer"}
+              text={
+                "Develop and maintain scalable software solutions for a leading real estate investment company. Collaborate with cross-functional teams to design, implement, and optimize applications that enhance investment management and property administration processes."
+              }
+            />
+          <ResumeItem
+              year={"December 2022 - June 2024"}
+              title={"NewBitCrew"}
+              subTitle={"Software Developer"}
+              text={
+                "Develop and implement innovative software solutions for diverse industries, including fintech. Collaborate with a skilled team to design, code, and optimize web and mobile applications using agile methodologies. Contribute to projects that enhance client operations and deliver exceptional user experiences"
+              }
+            />
           <ResumeItem
             year={"2021"}
             title={"AmadeuS (Academic)"}
@@ -53,6 +61,14 @@ function Resume() {
             subTitle={"Software Developer"}
             text={
               "+800 hours intensive bootcamp based on practices and real projects with agile methodologies and tools (scrum). On the other hand, it is aimed at improving technical skills and soft skills working as a team."
+            }
+          />
+          <ResumeItem
+            year={"2016 - 2018"}
+            title={"National University of La Matanza"}
+            subTitle={"Computer Engineering"}
+            text={
+              ""
             }
           />
           <ResumeItem
