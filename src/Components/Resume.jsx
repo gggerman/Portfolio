@@ -19,21 +19,29 @@ function Resume() {
         </div>
         <div className="resume-content">
           <ResumeItem
-              year={"June 2024 - Present"}
-              title={"Propital"}
-              subTitle={"Software Development Engineer"}
-              text={
-                "Develop and maintain scalable software solutions for a leading real estate investment company. Collaborate with cross-functional teams to design, implement, and optimize applications that enhance investment management and property administration processes."
-              }
-            />
+            year={"October 2024 - Present"}
+            title={"SMS Sudamérica"}
+            subTitle={"Software Developer"}
+            text={
+              "Frontend development and maintenance of healthcare applications for OSDE, focusing on client onboarding through customer-facing affiliation forms and internal backoffice tools."
+            }
+          />
           <ResumeItem
-              year={"December 2022 - June 2024"}
-              title={"NewBitCrew"}
-              subTitle={"Software Developer"}
-              text={
-                "Develop and implement innovative software solutions for diverse industries, including fintech. Collaborate with a skilled team to design, code, and optimize web and mobile applications using agile methodologies. Contribute to projects that enhance client operations and deliver exceptional user experiences"
-              }
-            />
+            year={"June 2024 - October 2024"}
+            title={"Propital"}
+            subTitle={"Software Development Engineer"}
+            text={
+              "Develop and maintain scalable software solutions for a leading real estate investment company. Collaborate with cross-functional teams to design, implement, and optimize applications that enhance investment management and property administration processes."
+            }
+          />
+          <ResumeItem
+            year={"December 2022 - June 2024"}
+            title={"NewBitCrew"}
+            subTitle={"Software Developer"}
+            text={
+              "Develop and implement innovative software solutions for diverse industries, including fintech. Collaborate with a skilled team to design, code, and optimize web and mobile applications using agile methodologies. Contribute to projects that enhance client operations and deliver exceptional user experiences"
+            }
+          />
           <ResumeItem
             year={"2021"}
             title={"AmadeuS (Academic)"}
