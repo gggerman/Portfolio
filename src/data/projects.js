@@ -86,7 +86,7 @@ const projects = [
         link1: 'https://github.com/gggerman/Final-Proyect-Front',
         link2: 'https://amadeus.vercel.app/',
         title: 'AmadeuS E-Commerce',
-        text: 'Amadeus is an e-commerce platform for buying and selling musical instruments. Developed with TypeScript, React, Redux, Node.js, and NoSQL.',
+        text: 'Amadeus is an e-commerce platform for buying and selling musical instruments. Developed with Javascript, React, Redux, Node.js, and NoSQL.',
         hasGithub: true,
         hasDeploy: true
     },
