@@ -6,7 +6,7 @@ import LinkIcon from "@material-ui/icons/Link";
 function Menu({ menuItem }) {
   return (
     <MenuItemStyled>
-      {menuItem.map((item) => {
+      {menuItem.sort((a, b) => b.id - a.id).map((item) => {
         return (
           <div className="grid-item" key={item.id}>
             <div className="portfolio-content">

@@ -13,7 +13,7 @@ function HomePage() {
                     Software Developer | React & Node
                 </p>
                 <div className="icons">
-                    <a href="https://www.linkedin.com/in/german-garcia-full-stack-developer/" target="_blank" className="icon i-facebook">
+                    <a href="https://www.linkedin.com/in/german-garcia-software-developer/" target="_blank" className="icon i-facebook">
                         <LinkedInIcon />
                     </a>
                     <a href="https://github.com/gggerman" target="_blank" className="icon i-github">

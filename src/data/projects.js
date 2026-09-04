@@ -11,21 +11,57 @@ import Propital from '../img/portImages/Propital.png';
 import Movikraft from '../img/portImages/Movikraft.png';
 import Chefbro from '../img/portImages/Chefbro.png';
 import BeOneUp from '../img/portImages/BeOneUp.png';
+import OsdeBackoffice from '../img/portImages/OsdeBackOffice.png';
+import OsdeForm from '../img/portImages/OsdeForm.png';
+import OsdeVenta from '../img/portImages/OsdeVenta.png';
 
 const projects = [
     {
-        id: 1,
+        id: 16,
+        category: 'Full Stack',
+        image: OsdeVenta,
+        link1: '',
+        link2: 'https://asociarmeaosde.com.ar/',
+        title: 'OSDE Sales',
+        text: 'Developed OSDE’s online sales flow, allowing users to quote different healthcare plans based on their needs and submit their information to be contacted by a sales representative. Developed with Typescript, Next.js and GCP.',
+        hasGithub: false,
+        hasDeploy: true
+    },
+    {
+        id: 15,
+        category: 'Full Stack',
+        image: OsdeForm,
+        link1: '',
+        link2: 'https://www.osde.com.ar/',
+        title: 'OSDE Affilliation Form',
+        text: 'Developed a multi-step membership form for OSDE, handling personal information, affidavit data, and terms & conditions, with validation, state management, and frontend-backend integration. Developed with Typescript, React, Node and GCP.',
+        hasGithub: false,
+        hasDeploy: true
+    },
+    {
+        id: 14,
+        category: 'Full Stack',
+        image: OsdeBackoffice,
+        link1: '',
+        link2: 'https://www.osde.com.ar/',
+        title: 'OSDE Backoffice',
+        text: 'Development of OSDE’s enrollment back office, an internal tool that allows advisors to create and manage new member applications. The platform supports the entire process, from entering initial customer data and sending the enrollment form to completing the application and activating the new membership. Developed with Typescript, React, Node and GCP.',
+        hasGithub: false,
+        hasDeploy: true
+    },
+    {
+        id: 13,
         category: 'Full Stack',
         image: Propital,
         link1: '',
         link2: 'https://backoffice.propital.com/',
         title: 'Propital | Inversiones Inmobiliarias',
-        text: 'The BackOffice at Propital manages properties, investments and clients, optimizing processes and decision-making. Developed with JavaScript, React, Redux, Python and AWS Lambda.',
+        text: 'The BackOffice at Propital manages properties, investments and clients, optimizing processes and decision-making. Developed with JavaScript, React, Redux, Node, Python and AWS.',
         hasGithub: false,
         hasDeploy: true
     },
     {
-        id: 2,
+        id: 12,
         category: 'Full Stack',
         image: Movikraft,
         link1: '',
@@ -36,7 +72,7 @@ const projects = [
         hasDeploy: true
     },
     {
-        id: 3,
+        id: 11,
         category: 'Full Stack',
         image: Coin,
         link1: '',
@@ -47,7 +83,7 @@ const projects = [
         hasDeploy: true
     },
     {
-        id: 4,
+        id: 10,
         category: 'Full Stack',
         image: MagicStories,
         link1: '',
@@ -58,7 +94,7 @@ const projects = [
         hasDeploy: true
     },
     {
-        id: 4,
+        id: 9,
         category: 'Full Stack',
         image: Chefbro,
         link1: '',
@@ -69,7 +105,7 @@ const projects = [
         hasDeploy: true
     },
     {
-        id: 4,
+        id: 8,
         category: 'Full Stack',
         image: BeOneUp,
         link1: '',
@@ -80,7 +116,7 @@ const projects = [
         hasDeploy: true
     },
     {
-        id: 5,
+        id: 7,
         category: 'Full Stack',
         image: amadeuS,
         link1: 'https://github.com/gggerman/Final-Proyect-Front',
@@ -102,7 +138,7 @@ const projects = [
         hasDeploy: true
     },
     {
-        id: 7,
+        id: 5,
         category: 'React',
         image: portfolio,
         link1: 'https://github.com/gggerman/Portfolio',
@@ -113,7 +149,7 @@ const projects = [
         hasDeploy: true
     },
     {
-        id: 8,
+        id: 4,
         category: 'Full Stack',
         image: travelMap,
         link1: 'https://github.com/gggerman/Travel-Map',
@@ -124,7 +160,7 @@ const projects = [
         hasDeploy: true
     },
     {
-        id: 9,
+        id: 3,
         category: 'Typescript',
         image: tasksTypescript,
         link1: 'https://github.com/gggerman/Tasks-Typescript',
@@ -135,7 +171,7 @@ const projects = [
         hasDeploy: true
     },
     {
-        id: 10,
+        id: 2,
         category: 'Full Stack',
         image: pokeApp,
         link1: 'https://github.com/gggerman/PokeApp',
@@ -146,7 +182,7 @@ const projects = [
         hasDeploy: true
     },
     {
-        id: 11,
+        id: 1,
         category: 'React',
         image: weatherApp,
         link1: 'https://github.com/gggerman/Weather-App',
